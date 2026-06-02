@@ -91,7 +91,7 @@ Linear: 256 -> 100
 Equivalently, the model is a fixed-grid operator surrogate:
 
 $$
-\operatorname{MLP}_{\phi}:\mathbb{R}^{1100}\longrightarrow\mathbb{R}^{100}.
+\mathrm{MLP}_{\phi}:\mathbb{R}^{1100}\longrightarrow\mathbb{R}^{100}.
 $$
 
 The model is trained using mean squared error between the predicted price-impact path $\widehat{Y}^{\,0}$ and the true path $Y^0$:
@@ -117,15 +117,15 @@ For each test task, I generate a new regime $\theta=(\lambda,\beta)$, construct 
 The main metric is relative $L^2$ error:
 
 $$
-\operatorname{RelL2}
+\mathrm{RelL2}
 \left(
   \widehat{Y},Y
 \right)
 =
 \frac{
-  \left\lVert \widehat{Y}-Y \right\rVert_2
+  \left\| \widehat{Y}-Y \right\|_2
 }{
-  \left\lVert Y \right\rVert_2
+  \left\| Y \right\|_2
 }.
 $$
 

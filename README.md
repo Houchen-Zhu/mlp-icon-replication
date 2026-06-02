@@ -237,7 +237,7 @@ No output activation.
 The model is a simplified MLP-based ICON baseline:
 
 $$
-\operatorname{MLP}_{\phi}:\mathbb{R}^{1100}\longrightarrow\mathbb{R}^{100}.
+\mathrm{MLP}_{\phi}:\mathbb{R}^{1100}\longrightarrow\mathbb{R}^{100}.
 $$
 
 It receives 5 context $(u,Y)$ pairs and one query $u^0$, then predicts $\widehat{Y}^{\,0}$.
@@ -332,15 +332,15 @@ For each test task:
 Compute:
 
 $$
-\operatorname{RelL2}
+\mathrm{RelL2}
 \left(
   \widehat{Y},Y
 \right)
 =
 \frac{
-  \left\lVert \widehat{Y}-Y \right\rVert_2
+  \left\| \widehat{Y}-Y \right\|_2
 }{
-  \left\lVert Y \right\rVert_2
+  \left\| Y \right\|_2
 }.
 $$
 
