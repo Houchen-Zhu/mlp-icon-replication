@@ -514,11 +514,11 @@ This first version fixes:
 The purpose is to verify the core training logic:
 
 $$
-\underbrace{\text{same-regime context examples}}_{\{(u^m,Y^m)\}_{m=1}^{5}}
+\{(u^m,Y^m)\}_{m=1}^{5}
 \;+\;
-\underbrace{\text{query selling path}}_{u^0}
+u^0
 \quad\Longrightarrow\quad
-\underbrace{\text{query price-impact path}}_{Y^0}.
+Y^0 .
 $$
 
 Once this works, the next step is to replace the MLP with a small Transformer model.
