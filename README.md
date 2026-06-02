@@ -1,5 +1,7 @@
 # MLP-ICON Local Replication
 
+Note: Some LaTeX formulas may not render correctly in GitHub's web preview. See `math_rendering_note.md` for the recommended viewing method.
+
 ## Goal
 
 Implement a simplified MLP-based ICON baseline for the in-context operator learning task:
