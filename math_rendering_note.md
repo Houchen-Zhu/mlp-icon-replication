@@ -9,7 +9,7 @@ $$
 Y_{t_i}
 \approx
 \sum_{j=0}^{i}
-\exp\!\left[-\beta\left(t_i-t_j\right)\right]
+\exp\left[-\beta\left(t_i-t_j\right)\right]
 \lambda u_{t_j}\Delta t .
 $$
 ```

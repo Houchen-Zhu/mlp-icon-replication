@@ -54,7 +54,7 @@ $$
 Y_{t_i}
 \approx
 \sum_{j=0}^{i}
-\exp\!\left[-\beta\left(t_i-t_j\right)\right]
+\exp\left[-\beta\left(t_i-t_j\right)\right]
 \lambda u_{t_j}\Delta t .
 $$
 
@@ -63,8 +63,8 @@ The experimental setup is:
 - $T=1$
 - $N=100$
 - $\Delta t=0.01$
-- $\lambda\sim\mathcal{U}\!\left([0.1,0.5]\right)$
-- $\beta\sim\mathcal{U}\!\left([0.462,9.011]\right)$
+- $\lambda\sim\mathcal{U}\left([0.1,0.5]\right)$
+- $\beta\sim\mathcal{U}\left([0.462,9.011]\right)$
 - 1,000 training regimes
 - 10 selling-rate trajectories per regime
 - 5 context examples per task

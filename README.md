@@ -26,7 +26,7 @@ $$
 Y_{t_i}
 \approx
 \sum_{j=0}^{i}
-\exp\!\left[-\beta\left(t_i-t_j\right)\right]
+\exp\left[-\beta\left(t_i-t_j\right)\right]
 \lambda u_{t_j}\Delta t .
 $$
 
@@ -84,9 +84,9 @@ Use MPS if available, otherwise use CPU.
 Parameter ranges:
 
 $$
-\lambda \sim \mathcal{U}\!\left([0.1,0.5]\right),
+\lambda \sim \mathcal{U}\left([0.1,0.5]\right),
 \qquad
-\beta \sim \mathcal{U}\!\left([0.462,9.011]\right).
+\beta \sim \mathcal{U}\left([0.462,9.011]\right).
 $$
 
 ---
@@ -144,7 +144,7 @@ $$
 Y_i
 =
 \sum_{j=0}^{i}
-\exp\!\left[-\beta\left(t_i-t_j\right)\right]
+\exp\left[-\beta\left(t_i-t_j\right)\right]
 \lambda u_j\Delta t .
 $$
 
@@ -316,9 +316,9 @@ pairs_per_regime = 10
 Use the same parameter ranges:
 
 $$
-\lambda \sim \mathcal{U}\!\left([0.1,0.5]\right),
+\lambda \sim \mathcal{U}\left([0.1,0.5]\right),
 \qquad
-\beta \sim \mathcal{U}\!\left([0.462,9.011]\right).
+\beta \sim \mathcal{U}\left([0.462,9.011]\right).
 $$
 
 Run at least 500 test tasks.
